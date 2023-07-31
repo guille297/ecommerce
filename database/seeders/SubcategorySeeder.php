@@ -26,8 +26,7 @@ class SubcategorySeeder extends Seeder
             [
                 'category_id' => 1,
                 'name' => 'Accesorios para celulares',
-                'slug' => Str::slug('Accesorios para celulares'),
-                'color' => true
+                'slug' => Str::slug('Accesorios para celulares')
             ],
             [
                 'category_id' => 1,
@@ -40,46 +39,39 @@ class SubcategorySeeder extends Seeder
             [
                 'category_id' => 2,
                 'name' => 'Tv y audio',
-                'slug' => Str::slug('Tv y audio'),
-                'color' => true
+                'slug' => Str::slug('Tv y audio')
             ],
             [
                 'category_id' => 2,
                 'name' => 'Audios',
-                'slug' => Str::slug('Audios'),
-                'color' => true
+                'slug' => Str::slug('Audios')
             ],
             [
                 'category_id' => 2,
                 'name' => 'Audio para autos',
-                'slug' => Str::slug('Audio para autos'),
-                'color' => true
+                'slug' => Str::slug('Audio para autos')
             ],
 
             #Consola y videojuegos
             [
                 'category_id' => 3,
                 'name' => 'Xbox',
-                'slug' => Str::slug('Xbox'),
-                'color' => true
+                'slug' => Str::slug('Xbox')
             ],
             [
                 'category_id' => 3,
                 'name' => 'Playstation',
-                'slug' => Str::slug('Playstation'),
-                'color' => true
+                'slug' => Str::slug('Playstation')
             ],
             [
                 'category_id' => 3,
                 'name' => 'PC Gaming',
-                'slug' => Str::slug('PC Gaming'),
-                'color' => true
+                'slug' => Str::slug('PC Gaming')
             ],
             [
                 'category_id' => 3,
                 'name' => 'Nintendo',
-                'slug' => Str::slug('Nintendo'),
-                'color' => true
+                'slug' => Str::slug('Nintendo')
             ],
 
             #Computacion
@@ -98,8 +90,7 @@ class SubcategorySeeder extends Seeder
             [
                 'category_id' => 4,
                 'name' => 'Almacenamiento',
-                'slug' => Str::slug('Almacenamiento'),
-                'color' => true
+                'slug' => Str::slug('Almacenamiento')
             ],
             [
                 'category_id' => 4,
@@ -113,13 +104,15 @@ class SubcategorySeeder extends Seeder
                 'category_id' => 5,
                 'name' => 'Mujeres',
                 'slug' => Str::slug('Mujeres'),
-                'color' => true
+                'color' => true,
+                'size' => true
             ],
             [
                 'category_id' => 5,
                 'name' => 'Hombres',
                 'slug' => Str::slug('Hombres'),
-                'color' => true
+                'color' => true,
+                'size' => true
             ],
             [
                 'category_id' => 5,
